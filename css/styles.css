@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter|Open+Sans);
+* {
+    font-family: 'Architects Daughter',cursive;
+        font-size: x-large;
+}
+html {
+    width:100%;
+	height:100%;
+	margin:0; 
+	padding:0;
+	
+}
+/*-------------------------top------------------*/
+.youngnerd {
+    
+}
+.young {
+   text-align: center;
+   color: black;
+}
+.nerd {
+    text-align: center;
+        color: black;
+        margin: auto;
+}
+/*-------------------top-------------------------*/
+/*---------------buttons-------------------------*/
+.buttons {
+    margin: -130px -46px 0px -189px;
+    background-color: #000000;
+    padding: 8px 4px 13px 281px;
+}
+
+.a {
+        padding: 5px 100px;
+        border-radius: 5px;
+}
+.btn-primary {
+    color: black;
+    background-color: #F1C40F;
+    border-color: rgb(255, 255, 255);
+}
+.btn-primary:hover {
+    text-decoration: none;
+    background-color: black;
+    color: gold;
+}
+/*-----------------buttons-------------------*/
+/*----------------jumbotron-----------------*/
+.jumbotron {
+    background-image: url(../images/super.jpg);
+    padding-bottom: 180px;
+    padding-top: 130px;
+    /* background-repeat: no-repeat; */
+}
+.bigb {
+    margin: -41px 423px;
+    padding: 29px 40px 29px 52px;
+    border-radius: 29px;
+    text-decoration: underline;
+    color:#F1C40F;
+}
+b {
+    color: blue;
+}
+
+/*===========================middle======================*/
+.text {
+    text-align: center;
+    margin: 104px;
+    background-color: black;
+    color: #F1C40F;
+}
+.concept {
+        height: 661px;
+} 
+header {
+    background-color: #F1C40F;
+}
+
+
+/*===========================middle======================*/
+/*======================footer=========================*/
+footer {
+	background-color: black;
+	padding-top:20px ;
+}
+footer a {
+	color:#F1C40F;
+}
+.contact-info{
+	padding-top: 15px;
+	padding-left: 40px;
+	border-left:1px solid #333;
+	border-right:1px solid #333;  
+}
+.container-fluid {
+    font-size: large
+}
+.social {
+	padding-top: 15px;
+}
+footer .fine-print {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #F1C40F;
+}
+@media (max-width:768px){
+	.center{
+		float:none;
+		margin:0 auto;  
+	}
+	.header-nav{
+		top:0;
+	}
+	.social{
+		text-align: center;
+		font-size:45px;
+	}
+	.social i{
+		margin: 20px 10px 0px;
+	}
+}
+/*===========================second=====================================*/
+.title2 {
+    
+}
+.paragraph2 {
+    
+}
+.text2 {
+    text-align: center;
+    margin: 104px;
+    background-color: black;
+    color: #F1C40F;
+    border-radius: 29px;
+}
+.image {
+    width:400px;
+}
+.flash {
+    background-image: url(../images/flash.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+}
+.jumbotron3 {
+    background-image: url(../images/super.jpg);
+    padding-bottom: 180px;
+    padding-top: 130px;
+}
+.text4 {
+    text-align: center;
+    margin: 104px;
+    color: #F1C40F;
+    text-shadow: 2px 2px #080808;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+/*===============================second===================================*/
+.saitama {
+    background-image: url(../images/saitama1.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+}
+.jumbotron2 {
+    background-image: url(../images/super.jpg);
+    padding-bottom: 180px;
+    padding-top: 130px;
+}
+.text3 {
+    text-align: center;
+    margin: 104px;
+    color: #F1C40F;
+    text-shadow: 2px 2px #080808;
+    background-color: rgba(99, 59, 0, 0.8);
+    border-radius: 10px;
+}
+/*=====================fourth========================================*/
+.paragraph3 {
+    padding-right: 43px;
+    padding-left: 19px;
+    background-image: url("../images/logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+.ky {
+    height: 391px;
+    float: left;
+    padding: 11px 29px;
+}
+
+.title {
+    height: 100px;
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */ 
+    animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+    0%   {top: 0px; left: 0px; background: #F1C40F; color: black;}
+    25%  {top: 0px; left: 400px; background: black; }
+    50%  {top: 100px; left: 100px; background: #F1C40F; color: black;}
+    75%  {top: 100px; left: 0px; background: black; }
+    100% {top: 0px; left: 0px; background: #F1C40F; color: black;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: #F1C40F; color: black;}
+    25%  {top: 0px; left: 100px; background: black; color: #F1C40F;}
+    50%  {top: 100px; left: 100px; background: #F1C40F; color: black;}
+    75%  {top: 100px; left: 0px; background: black; color: #F1C40F;}
+    100% {top: 0px; left: 0px; background: #F1C40F; color: black;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"filter":false,"title":"styles.css","tooltip":"/css/styles.css","undoManager":{"mark":100,"position":100,"stack":[[{"start":{"row":150,"column":0},"end":{"row":150,"column":4},"action":"remove","lines":["    "],"id":1751}],[{"start":{"row":149,"column":26},"end":{"row":150,"column":0},"action":"remove","lines":["",""],"id":1752}],[{"start":{"row":151,"column":1},"end":{"row":152,"column":0},"action":"insert","lines":["",""],"id":1753}],[{"start":{"row":152,"column":0},"end":{"row":152,"column":1},"action":"insert","lines":["."],"id":1755}],[{"start":{"row":152,"column":1},"end":{"row":152,"column":2},"action":"insert","lines":["t"],"id":1756}],[{"start":{"row":152,"column":2},"end":{"row":152,"column":3},"action":"insert","lines":["e"],"id":1757},{"start":{"row":152,"column":3},"end":{"row":152,"column":4},"action":"insert","lines":["x"]}],[{"start":{"row":152,"column":4},"end":{"row":152,"column":5},"action":"insert","lines":["t"],"id":1758}],[{"start":{"row":152,"column":1},"end":{"row":152,"column":5},"action":"remove","lines":["text"],"id":1759},{"start":{"row":152,"column":1},"end":{"row":152,"column":6},"action":"insert","lines":["text3"]}],[{"start":{"row":152,"column":6},"end":{"row":153,"column":0},"action":"insert","lines":["",""],"id":1760}],[{"start":{"row":153,"column":0},"end":{"row":153,"column":29},"action":"insert","lines":["text-shadow: 2px 2px #080808;"],"id":1761}],[{"start":{"row":153,"column":0},"end":{"row":153,"column":29},"action":"remove","lines":["text-shadow: 2px 2px #080808;"],"id":1762}],[{"start":{"row":152,"column":6},"end":{"row":152,"column":7},"action":"insert","lines":[" "],"id":1763},{"start":{"row":152,"column":7},"end":{"row":152,"column":8},"action":"insert","lines":["{"]}],[{"start":{"row":152,"column":8},"end":{"row":154,"column":1},"action":"insert","lines":["","    ","}"],"id":1764}],[{"start":{"row":153,"column":4},"end":{"row":157,"column":32},"action":"insert","lines":["    text-align: center;","    margin: 104px;","    /* background-color: black; */","    color: #F1C40F;","    text-shadow: 2px 2px #080808"],"id":1765}],[{"start":{"row":153,"column":4},"end":{"row":153,"column":8},"action":"remove","lines":["    "],"id":1766}],[{"start":{"row":155,"column":4},"end":{"row":155,"column":34},"action":"remove","lines":["/* background-color: black; */"],"id":1767}],[{"start":{"row":155,"column":0},"end":{"row":155,"column":4},"action":"remove","lines":["    "],"id":1768}],[{"start":{"row":154,"column":18},"end":{"row":155,"column":0},"action":"remove","lines":["",""],"id":1769}],[{"start":{"row":143,"column":43},"end":{"row":143,"column":44},"action":"remove","lines":["2"],"id":1770}],[{"start":{"row":143,"column":42},"end":{"row":143,"column":43},"action":"remove","lines":["a"],"id":1771}],[{"start":{"row":143,"column":41},"end":{"row":143,"column":42},"action":"remove","lines":["m"],"id":1772}],[{"start":{"row":143,"column":40},"end":{"row":143,"column":41},"action":"remove","lines":["a"],"id":1773}],[{"start":{"row":143,"column":39},"end":{"row":143,"column":40},"action":"remove","lines":["t"],"id":1774}],[{"start":{"row":143,"column":38},"end":{"row":143,"column":39},"action":"remove","lines":["i"],"id":1775}],[{"start":{"row":143,"column":37},"end":{"row":143,"column":38},"action":"remove","lines":["a"],"id":1776}],[{"start":{"row":143,"column":36},"end":{"row":143,"column":37},"action":"remove","lines":["s"],"id":1777}],[{"start":{"row":143,"column":36},"end":{"row":143,"column":37},"action":"insert","lines":["s"],"id":1778}],[{"start":{"row":143,"column":37},"end":{"row":143,"column":38},"action":"insert","lines":["a"],"id":1779}],[{"start":{"row":143,"column":38},"end":{"row":143,"column":39},"action":"insert","lines":["i"],"id":1780}],[{"start":{"row":143,"column":36},"end":{"row":143,"column":39},"action":"remove","lines":["sai"],"id":1781},{"start":{"row":143,"column":36},"end":{"row":143,"column":43},"action":"insert","lines":["saitama"]}],[{"start":{"row":143,"column":43},"end":{"row":143,"column":44},"action":"insert","lines":["2"],"id":1782}],[{"start":{"row":143,"column":43},"end":{"row":143,"column":44},"action":"remove","lines":["2"],"id":1783}],[{"start":{"row":143,"column":43},"end":{"row":143,"column":44},"action":"insert","lines":["1"],"id":1784}],[{"start":{"row":158,"column":0},"end":{"row":158,"column":1},"action":"insert","lines":["y"],"id":1785}],[{"start":{"row":158,"column":1},"end":{"row":158,"column":2},"action":"insert","lines":["o"],"id":1786}],[{"start":{"row":158,"column":2},"end":{"row":158,"column":3},"action":"insert","lines":["u"],"id":1787}],[{"start":{"row":158,"column":0},"end":{"row":158,"column":3},"action":"remove","lines":["you"],"id":1788},{"start":{"row":158,"column":0},"end":{"row":158,"column":5},"action":"insert","lines":["young"]}],[{"start":{"row":158,"column":5},"end":{"row":158,"column":6},"action":"insert","lines":["1"],"id":1789}],[{"start":{"row":158,"column":6},"end":{"row":158,"column":7},"action":"insert","lines":[" "],"id":1790}],[{"start":{"row":158,"column":7},"end":{"row":158,"column":8},"action":"insert","lines":["{"],"id":1791}],[{"start":{"row":158,"column":8},"end":{"row":160,"column":1},"action":"insert","lines":["","    ","}"],"id":1792}],[{"start":{"row":160,"column":1},"end":{"row":161,"column":0},"action":"insert","lines":["",""],"id":1793}],[{"start":{"row":161,"column":0},"end":{"row":161,"column":1},"action":"insert","lines":["n"],"id":1794}],[{"start":{"row":161,"column":1},"end":{"row":161,"column":2},"action":"insert","lines":["e"],"id":1795},{"start":{"row":161,"column":2},"end":{"row":161,"column":3},"action":"insert","lines":["r"]}],[{"start":{"row":161,"column":3},"end":{"row":161,"column":4},"action":"insert","lines":["d"],"id":1796}],[{"start":{"row":161,"column":0},"end":{"row":161,"column":4},"action":"remove","lines":["nerd"],"id":1797},{"start":{"row":161,"column":0},"end":{"row":161,"column":5},"action":"insert","lines":["nerd1"]}],[{"start":{"row":161,"column":5},"end":{"row":161,"column":6},"action":"insert","lines":[" "],"id":1798}],[{"start":{"row":161,"column":6},"end":{"row":161,"column":7},"action":"insert","lines":["{"],"id":1799}],[{"start":{"row":161,"column":7},"end":{"row":163,"column":1},"action":"insert","lines":["","    ","}"],"id":1800}],[{"start":{"row":162,"column":4},"end":{"row":164,"column":21},"action":"insert","lines":["text-align: center;","        color: black;","        margin: auto;"],"id":1801}],[{"start":{"row":159,"column":4},"end":{"row":160,"column":16},"action":"insert","lines":["text-align: center;","   color: black;"],"id":1802}],[{"start":{"row":159,"column":0},"end":{"row":159,"column":4},"action":"remove","lines":["    "],"id":1803}],[{"start":{"row":159,"column":0},"end":{"row":159,"column":4},"action":"insert","lines":["    "],"id":1804}],[{"start":{"row":160,"column":3},"end":{"row":160,"column":4},"action":"insert","lines":[" "],"id":1805}],[{"start":{"row":158,"column":0},"end":{"row":158,"column":1},"action":"insert","lines":["."],"id":1806}],[{"start":{"row":162,"column":0},"end":{"row":162,"column":1},"action":"insert","lines":["."],"id":1807}],[{"start":{"row":158,"column":0},"end":{"row":166,"column":1},"action":"remove","lines":[".young1 {","    text-align: center;","    color: black;","}",".nerd1 {","    text-align: center;","        color: black;","        margin: auto;","}"],"id":1808}],[{"start":{"row":140,"column":1},"end":{"row":141,"column":0},"action":"insert","lines":["",""],"id":1809}],[{"start":{"row":141,"column":0},"end":{"row":141,"column":1},"action":"insert","lines":["f"],"id":1810}],[{"start":{"row":141,"column":1},"end":{"row":141,"column":2},"action":"insert","lines":["l"],"id":1811}],[{"start":{"row":141,"column":2},"end":{"row":141,"column":3},"action":"insert","lines":["a"],"id":1812}],[{"start":{"row":141,"column":3},"end":{"row":141,"column":4},"action":"insert","lines":["s"],"id":1813}],[{"start":{"row":141,"column":4},"end":{"row":141,"column":5},"action":"insert","lines":["h"],"id":1814}],[{"start":{"row":141,"column":5},"end":{"row":142,"column":0},"action":"insert","lines":["",""],"id":1815}],[{"start":{"row":141,"column":0},"end":{"row":141,"column":1},"action":"insert","lines":["."],"id":1816}],[{"start":{"row":141,"column":6},"end":{"row":141,"column":7},"action":"insert","lines":[" "],"id":1817}],[{"start":{"row":141,"column":7},"end":{"row":141,"column":8},"action":"insert","lines":["{"],"id":1818}],[{"start":{"row":141,"column":8},"end":{"row":143,"column":1},"action":"insert","lines":["","    ","}"],"id":1819}],[{"start":{"row":143,"column":1},"end":{"row":144,"column":0},"action":"insert","lines":["",""],"id":1820}],[{"start":{"row":144,"column":0},"end":{"row":144,"column":1},"action":"insert","lines":["j"],"id":1821}],[{"start":{"row":144,"column":1},"end":{"row":144,"column":2},"action":"insert","lines":["u"],"id":1822}],[{"start":{"row":144,"column":2},"end":{"row":144,"column":3},"action":"insert","lines":["m"],"id":1823}],[{"start":{"row":144,"column":0},"end":{"row":144,"column":3},"action":"remove","lines":["jum"],"id":1824},{"start":{"row":144,"column":0},"end":{"row":144,"column":10},"action":"insert","lines":["jumbotron3"]}],[{"start":{"row":144,"column":0},"end":{"row":144,"column":1},"action":"insert","lines":["."],"id":1825}],[{"start":{"row":144,"column":11},"end":{"row":144,"column":12},"action":"insert","lines":[" "],"id":1826}],[{"start":{"row":144,"column":12},"end":{"row":144,"column":13},"action":"insert","lines":["{"],"id":1827}],[{"start":{"row":144,"column":13},"end":{"row":146,"column":1},"action":"insert","lines":["","    ","}"],"id":1828}],[{"start":{"row":145,"column":4},"end":{"row":147,"column":23},"action":"insert","lines":["background-image: url(../images/super.jpg);","    padding-bottom: 180px;","    padding-top: 130px;"],"id":1829}],[{"start":{"row":142,"column":4},"end":{"row":144,"column":29},"action":"insert","lines":["    background-image: url(../images/saitama1.jpg);","    background-attachment: fixed;","    background-repeat: round;"],"id":1830}],[{"start":{"row":142,"column":6},"end":{"row":142,"column":7},"action":"remove","lines":[" "],"id":1831}],[{"start":{"row":142,"column":5},"end":{"row":142,"column":6},"action":"remove","lines":[" "],"id":1832}],[{"start":{"row":142,"column":4},"end":{"row":142,"column":5},"action":"remove","lines":[" "],"id":1833}],[{"start":{"row":142,"column":4},"end":{"row":142,"column":5},"action":"remove","lines":[" "],"id":1834}],[{"start":{"row":142,"column":43},"end":{"row":142,"column":44},"action":"remove","lines":["1"],"id":1835}],[{"start":{"row":142,"column":42},"end":{"row":142,"column":43},"action":"remove","lines":["a"],"id":1836}],[{"start":{"row":142,"column":41},"end":{"row":142,"column":42},"action":"remove","lines":["m"],"id":1837}],[{"start":{"row":142,"column":40},"end":{"row":142,"column":41},"action":"remove","lines":["a"],"id":1838}],[{"start":{"row":142,"column":39},"end":{"row":142,"column":40},"action":"remove","lines":["t"],"id":1839}],[{"start":{"row":142,"column":38},"end":{"row":142,"column":39},"action":"remove","lines":["i"],"id":1840}],[{"start":{"row":142,"column":37},"end":{"row":142,"column":38},"action":"remove","lines":["a"],"id":1841}],[{"start":{"row":142,"column":36},"end":{"row":142,"column":37},"action":"remove","lines":["s"],"id":1842}],[{"start":{"row":142,"column":36},"end":{"row":142,"column":37},"action":"insert","lines":["f"],"id":1843}],[{"start":{"row":142,"column":37},"end":{"row":142,"column":38},"action":"insert","lines":["l"],"id":1844}],[{"start":{"row":142,"column":38},"end":{"row":142,"column":39},"action":"insert","lines":["a"],"id":1845}],[{"start":{"row":142,"column":39},"end":{"row":142,"column":40},"action":"insert","lines":["s"],"id":1846}],[{"start":{"row":142,"column":40},"end":{"row":142,"column":41},"action":"insert","lines":["h"],"id":1847}],[{"start":{"row":142,"column":36},"end":{"row":142,"column":41},"action":"remove","lines":["flash"],"id":1848},{"start":{"row":142,"column":36},"end":{"row":142,"column":41},"action":"insert","lines":["flash"]}],[{"start":{"row":150,"column":1},"end":{"row":151,"column":0},"action":"insert","lines":["",""],"id":1849}],[{"start":{"row":151,"column":0},"end":{"row":156,"column":1},"action":"insert","lines":[".text3 {","    text-align: center;","    margin: 104px;","    color: #F1C40F;","    text-shadow: 2px 2px #080808","}"],"id":1850}],[{"start":{"row":151,"column":5},"end":{"row":151,"column":6},"action":"remove","lines":["3"],"id":1851}],[{"start":{"row":151,"column":5},"end":{"row":151,"column":6},"action":"insert","lines":["4"],"id":1852}]]},"ace":{"folds":[],"scrolltop":3284,"scrollleft":0,"selection":{"start":{"row":151,"column":6},"end":{"row":151,"column":6},"isBackwards":false},"options":{"guessTabSize":true,"useWrapMode":false,"wrapToView":true},"firstLineState":{"row":141,"state":"ruleset","mode":"ace/mode/css"}},"timestamp":1462427412499,"hash":"d69b8638491fe9fbf207780b6107c663e2ead576"}
